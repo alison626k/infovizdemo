@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "homepage": "https://alison626k.github.io/infovizdemo/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,7 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
